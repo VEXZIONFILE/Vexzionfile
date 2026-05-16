@@ -1,0 +1,48 @@
+<!doctype html>
+<!-- vexzion-pro-tools-filter-visible-build-v1 -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pricing — Vexzion</title>
+<meta name="description" content="Vexzion is a professional online file tools platform.">
+<link rel="stylesheet" href="/assets/style.css?v=vexzion-pro-tools-filter-visible-build-v1">
+<script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="container nav-inner">
+    <a class="brand" href="/"><span>V</span><b>Vexzion</b></a>
+    <button class="menu-btn" id="mobileMenuBtn" type="button" aria-label="Open menu"><i></i><i></i><i></i></button>
+    <div class="nav-links" id="navLinks">
+      <a href="/">Home</a><a href="/tools">Tools</a>
+      <div class="drop-wrap"><button class="drop-btn" id="categoryDropdownBtn" type="button">Categories ▾</button><div class="dropdown"><a href="/categories"><strong>All Categories</strong></a><a href="/category/compression-tools">Compression Tools</a><a href="/category/developer-tools">Developer Tools</a><a href="/category/document-tools">Document Tools</a><a href="/category/image-tools">Image Tools</a><a href="/category/pdf-tools">PDF Tools</a><a href="/category/spreadsheet-tools">Spreadsheet Tools</a><a href="/category/utility-tools">Utility Tools</a></div></div>
+      <a href="/pricing">Pricing</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a>
+      <a class="mobile-auth signed-out-only" href="/signin">Login</a><a class="mobile-auth signed-out-only" href="/signup">Sign up</a>
+      <a class="mobile-auth signed-in-only" href="/account" style="display:none">Account</a>
+    </div>
+    <div class="nav-actions">
+      <a class="btn ghost signed-out-only" href="/signin">Login</a>
+      <a class="btn primary signed-out-only" href="/signup">Sign up</a>
+      <a class="btn ghost signed-in-only" href="/account" style="display:none">Account</a>
+      <a class="btn primary nav-cta" href="/pricing">Pro</a>
+    </div>
+  </div>
+</nav>
+
+<header class="subhero center container"><span class="eyebrow small">54 Free tools • 50 Pro tools</span><h1>Simple pricing for a growing file platform.</h1><p>Use free tools now. Pro is planned as a one-time account unlock.</p></header><main class="container section"><div class="price-grid"><div class="price-card"><span class="eyebrow small">Available now</span><h2>Free</h2><div class="price">$0</div><p>Use core Vexzion tools for everyday tasks.</p><ul><li>54 Free tools included</li><li>No account needed for basic Free tools</li><li>Tools marked Free are intended to stay free</li></ul><a class="btn" href="/tools">Use free tools</a></div><div class="price-card featured"><span class="eyebrow small">Planned upgrade</span><h2>Lifetime Pro</h2><div class="price">$19.99 <span>once</span></div><p>Unlock extra Pro tools and save access to your account.</p><ul><li>50 Pro tools planned</li><li>27 lightweight backend Pro tools</li><li>No API keys needed</li><li>One-time lifetime access planned</li><li>Account required so access can be saved</li></ul><label class="checkbox-row"><input type="checkbox" id="proAgeConsent"><span>By purchasing Pro, I confirm I am 18 or older, or that a parent or guardian is helping me make this purchase and gives permission.</span></label><button class="btn primary" onclick="startProCheckout()">Unlock Pro</button><p id="checkoutMsg" class="message"></p></div></div></main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div><b>Vexzion</b><p>104 tools • 54 free • 50 pro</p></div>
+    <div class="footer-links"><a href="/tools">Tools</a><a href="/categories">Categories</a><a href="/pricing">Pricing</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a></div>
+  </div>
+</footer>
+
+<script src="/assets/tools.js?v=vexzion-pro-tools-filter-visible-build-v1"></script>
+<script src="/assets/app.js?v=vexzion-pro-tools-filter-visible-build-v1"></script>
+
+</body>
+</html>
